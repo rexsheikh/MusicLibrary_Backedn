@@ -35,4 +35,7 @@ def song_detail(request,pk):
         song.delete()
         return Response(status = status.HTTP_204_NO_CONTENT)
 
+# put should be able to update the song at this point with the checkbox. 
+#update the get method to count the total number of likes. 
+
         
